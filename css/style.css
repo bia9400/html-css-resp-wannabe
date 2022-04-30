@@ -132,6 +132,9 @@ img {
     body{
         width: 1200px;
     }
+    .container{
+        max-width: 1140px;
+    }
 }
 @media screen and (max-width: 768px){
     h1 {
@@ -192,20 +195,22 @@ img {
     }
     
     .lessons .col{
-        min-height: 800px;
+        
         min-width: 100%;
     }
     .lessons .col img {
         height: 100%;
         width: 80%;
     }
-    .steps .col img {
+     img {
         height: 100%;
-        width: 80%;
+        
     }
-    .steps .col {
-        min-height: 800px;
+    .steps .col {  
         width: 100%;
+    }
+    .steps .col img{
+        height: 100%;
     }
     .steps{
         margin: 0;
@@ -215,14 +220,18 @@ img {
         background-color: #222222;
     }
     .why-us .col-left {
-        width: 80%;
-        height: 800px;
+        width: 100%;
+        
+    }
+    .why-us .col-left img{
+        width: 100%;
     }
     .why-us .col-right {
         width: 100%;
+        
     }
     .why-us p {
-        text-align: center;
+        
         margin-bottom: 3rem;
         font-size: 2.5rem;
     }
