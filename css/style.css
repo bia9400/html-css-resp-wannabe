@@ -130,7 +130,7 @@ img {
 @media screen and (max-width: 1200px) {
 
     body{
-        width: 1200px;
+        min-width: 1200px;
     }
     .container{
         max-width: 1140px;
@@ -183,7 +183,8 @@ img {
         font-size: 4.5rem;
     }
     p{
-        font-size: 2.5rem;
+        font-size: 3rem;
+        padding: 0 1rem;
     }
     .row{
        flex-direction: column;
