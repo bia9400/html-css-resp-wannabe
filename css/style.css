@@ -127,113 +127,39 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 1200px) {
-
-    body{
-        min-width: 1200px;
-    }
+@media screen and (max-width: 1140px) {
     .container{
-        max-width: 1140px;
+        max-width: 100%;
     }
 }
-@media screen and (max-width: 768px){
-    h1 {
-        margin-bottom: 3rem;
-        font-size: 3.5rem;
+
+@media screen and (max-width: 480px) {
+    .row {
+        display: flex;
+        flex-direction: column;
     }
-    
-    h2 {
-        margin-bottom: 2.5rem;
-        font-size: 3rem;
-        color: #fffffe;
-    }
-    
-    h3 {
-        margin-bottom: 1rem;
-        font-size: 2.5rem;
-    }
-    p{
-        font-size: 1.5rem;
-    }
-    .lessons img{
-        min-height: 300px;
-    }
-    .steps .col img {
-        min-height: 300px;
-        margin-bottom: 1rem;
+    .col{
+        padding: 2rem 1rem;
     }
     .lessons .col {
-        padding: 0 2rem;
-    }
-}
-@media screen and (max-width: 480px){
-    h1 {
-        margin-bottom: 3rem;
-        font-size: 7.5rem;
-    }
-    
-    h2 {
-        margin-bottom: 3.5rem;
-        font-size: 6rem;
-        color: #fffffe;
-    }
-    
-    h3 {
-        margin-bottom: 2rem;
-        font-size: 4.5rem;
-    }
-    p{
-        font-size: 3rem;
-        padding: 0 1rem;
-    }
-    .row{
-       flex-direction: column;
-       align-items: center;
-       gap: 3rem;
-    }
-    .card{
-        padding: 2rem 0;
-    }
-    
-    .lessons .col{
-        
-        min-width: 100%;
-    }
-    .lessons .col img {
-        height: 100%;
-        width: 80%;
-    }
-     img {
-        height: 100%;
-        
-    }
-    .steps .col {  
         width: 100%;
     }
-    .steps .col img{
-        height: 100%;
+    .steps .col {
+        width: 100%;
     }
     .steps{
-        margin: 0;
+        margin-bottom: 0;
     }
     .why-us{
+        padding-top: 3rem;
         margin-bottom: 0;
         background-color: #222222;
     }
     .why-us .col-left {
         width: 100%;
-        
     }
-    .why-us .col-left img{
-        width: 100%;
-    }
+    
     .why-us .col-right {
         width: 100%;
-        
-    }
-    .why-us p {
-        
-        margin-bottom: 3rem;
-        font-size: 2.5rem;
     }
 }
